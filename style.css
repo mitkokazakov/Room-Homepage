@@ -26,7 +26,30 @@ body{
 
 .upper-left{
     width: 60%;
-    
+    position: relative;
+}
+
+.navigation{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation-title{
+    font-size: 24px;
+}
+
+.navigation div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .upper-left img{
