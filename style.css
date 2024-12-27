@@ -23,7 +23,7 @@ body{
 
 .upper{
     width: 100%; 
-    height: 500px;
+    height: 600px;
     display: flex;
 
 }
@@ -113,7 +113,7 @@ body{
 }
 
 .upper-right-title{
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -169,6 +169,7 @@ body{
 .bottom{
     display: flex;
     width: 100%;
+    height: calc(100vh - 600px);
 }
 
 .bottom-left, .bottom-right{
@@ -187,9 +188,10 @@ body{
 }
 
 .bottom-midd h1{
-    font-size: 40px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
+    letter-spacing: 7px;
 }
 
 .bottom-midd p{
@@ -209,20 +211,22 @@ body{
 
         .upper-right{
             width: 45%;
-            padding: 60px 80px;
+            /* padding: 60px 80px; */
         }
 
-        .upper-right h1{
+        .upper-right-content{
+            padding: 70px 80px 0px 80px;
+            
+        }
+        
+        .upper-right-title{
             font-size: 34px;
         }
-
-        .upper-right-btn{
-            padding-bottom: 50px;
-        }
-
-        .arrows{
-            padding: 20px;
-            gap: 60px;
+        
+        .left-arrow-container, .right-arrow-container{
+            width: 50%;
+            padding: 20px 30px;
+            cursor: pointer;
         }
 
         .bottom{
@@ -242,15 +246,12 @@ body{
 
     @media screen and (max-width: 1024px){
         
-        .upper-right{
-            padding: 30px 40px;
+    
+        .upper-right-title{
+            font-size: 26px;
         }
 
-        .upper-right h1{
-            font-size: 20px;
-        }
-
-        .upper-right p{
+        .upper-right-text{
             font-size: 14px;
         }
 
@@ -263,9 +264,10 @@ body{
             height: 8px;
         }
 
-        .arrows{
-            padding: 15px;
-            gap: 50px;
+        .left-arrow-container, .right-arrow-container{
+            width: 50%;
+            padding: 20px 30px;
+            cursor: pointer;
         }
 
         .bottom{
