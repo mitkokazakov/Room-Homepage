@@ -11,7 +11,12 @@ body {
   font-family: "League Spartan", serif;
 }
 
+.overlay{
+  transition: all 500ms linear;
+}
+
 .container {
+  position: relative;
   min-height: 100vh;
   width: 100%;
   max-width: 1440px;
@@ -425,5 +430,17 @@ body {
 
   .close-btn-container {
     cursor: pointer;
+  }
+
+  .overlay.open{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    transition: all 500ms linear;
+    z-index: 15;
   }
 }
