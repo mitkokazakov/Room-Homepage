@@ -138,6 +138,7 @@ body {
 .upper-right-text {
   line-height: 21px;
   margin-bottom: 30px;
+  color: grey;
 }
 
 .upper-right-btn {
@@ -146,6 +147,11 @@ body {
   justify-content: start;
   align-items: center;
   gap: 50px;
+  cursor: pointer;
+}
+
+.upper-right-btn:hover, .upper-right-btn img{
+  color: gray;
 }
 
 .upper-right-btn p {
@@ -218,6 +224,7 @@ body {
 
 .bottom-midd p {
   line-height: 22px;
+  color: gray;
 }
 
 @media screen and (max-width: 1280px) {
