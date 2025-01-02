@@ -240,7 +240,7 @@ body {
 
 @media screen and (max-width: 1280px) {
   .upper {
-    height: 400px;
+    height: 550px;
   }
 
   .upper-left {
@@ -268,7 +268,7 @@ body {
   }
 
   .bottom {
-    height: 300px;
+    height: auto;
   }
 
   .bottom-midd {
@@ -309,12 +309,12 @@ body {
   }
 
   .bottom {
-    height: 250px;
+    height: 350px;
   }
 
   .bottom-midd {
     width: 50%;
-    padding: 30px 30px 10px 30px;
+    padding: 60px 40px;
   }
 
   .bottom-midd h1 {
