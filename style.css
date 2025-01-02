@@ -240,7 +240,7 @@ body {
 
 @media screen and (max-width: 1280px) {
   .upper {
-    height: 550px;
+    height: 400px;
   }
 
   .upper-left {
@@ -309,7 +309,7 @@ body {
   }
 
   .bottom {
-    height: 350px;
+    height: 250px;
   }
 
   .bottom-midd {
